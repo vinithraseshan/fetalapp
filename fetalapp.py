@@ -96,7 +96,7 @@ if model == 'Decision Tree':
         st.dataframe(pd.read_csv('df_report.csv'))
     with tab3:
         st.write("Confusion Matrix")
-        st.image('dtcm.svg')
+        st.image('dtcm.png')
         
 elif model == 'Random Forest':
     with tab1:
